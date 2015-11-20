@@ -1,5 +1,5 @@
-import input_data
 #one-hot vector is a vector which is 0 in most dimensions, and 1 in a single dimension
+import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True) 
 
 import tensorflow as tf
